@@ -60,10 +60,17 @@ public class ShowSpeachBuble : MonoBehaviour
 		else
 			throw new System.Exception("Tried to akses undefined Carakter");
     }
+	
+	public string[] Texte = new string[7];
+
+	Texte[0] = "x";
+	Texte[1] = "y";
+	Texte[2] = "z";
+
 
 	public void CangeText(string text)
 	{
-		text = textValue;
+		textValue = Texte[(int) text];
 	}
 
 }

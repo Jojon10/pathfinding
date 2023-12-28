@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TextBuble
       objectReference: {fileID: 0}
+    - target: {fileID: 5827247490959343577, guid: e7110b821bfaa2c47b92743ccdafe76b, type: 3}
+      propertyPath: textValue
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
